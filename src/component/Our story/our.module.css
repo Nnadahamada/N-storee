@@ -1,0 +1,35 @@
+.h2{
+
+  font-family: "Courier New", Courier, monospace;
+  Color: rgb(42, 37, 75);
+  font-style: normal;
+  font-weight: 400;
+   line-height: 34px ;
+   font-size:24px;
+}
+
+h4{
+  font-size:1.3rem ;
+}
+
+
+
+.btn {
+
+  display: inline-flex;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+  background: var(--main-color);
+  color: white;
+  border-radius: 10px 10px;
+}
+
+.btn:hover {
+  background-color: #4f3fb8;
+  color: #f0f3f2;
+}
+
+
+
+

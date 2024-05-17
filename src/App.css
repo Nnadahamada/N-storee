@@ -1,0 +1,138 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+ .feyer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.feyer-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feyer-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.feyer-header button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feyer-nav {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feyer-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.feyer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 20%;
+  height: 600px;
+  background-image: url('./Assets/Image1.png');
+
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.feyer-text {
+  width: 50%;
+  text-align: left;
+}
+
+.feyer-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feyer-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.feyer-text button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+
+@media (max-width: 768px) {
+  .feyer-content {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .feyer-content {
+    flex-basis: 100%;
+  }
+  .feyer-text {
+    margin: 0 10px;
+  }
+} */

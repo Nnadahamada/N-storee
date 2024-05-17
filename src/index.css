@@ -1,0 +1,204 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+
+:root {
+    --main-color: rgb(0, 0, 0);
+    --light-color: #f0f3f2;
+    --shadow: rgba(145, 158, 171, .2) 10px 2px 44px -1px, rgb(246, 246, 246) 0px 0px 2px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family: 'Encode Sans Expanded', sans-serif;
+    --Light-Grey: #ffffff;
+}
+
+
+body {
+    font-family: var(--font-family) !important;
+    width: 100%;
+
+}
+
+.rating-color {
+    color: var(--rating-color);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.imge {
+
+    margin-left: 280px;
+}
+
+a,
+a:hover {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+/* .product:hover {
+    box-shadow: var(--shadow);
+    border: 0 var(--main-color);
+    border-radius: 10px;
+} */
+
+/* .brands {
+    box-shadow: 0 var(--shadow);
+    transition: transform 1s, opacity 1s;
+    opacity: 1;
+    width: 300px;
+}
+
+.brands:hover {
+    box-shadow: var(--shadow);
+    border: 10px;
+    border-radius: 10;
+
+} */
+
+.descreption {
+    color: var(--Dark-Primary, #2A254B);
+    /* Body/Medium */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+}
+
+.btn {
+
+    display: inline-flex;
+    padding: 10px 20px;
+    margin-top: 10px;
+    align-items: flex-start;
+    background: var(--main-color);
+    color: white;
+}
+.btn:hover{
+    background-color: #e4e4e4;
+    color: #000000;
+}
+
+.font-sm {
+    font-size: 14px;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+
+.bg-main-light {
+    background-color: var(--light-color) !important;
+}
+
+
+/* HOme */
+.product:hover {
+    box-shadow: var(--shadow);
+    border: 0 var(--Dark-Primary);
+    border-radius: 1px;
+}
+.product  {
+    transition: transform 1s, opacity 1s ;
+    opacity: 1;
+}
+
+.product:hover  {
+    
+    opacity: 1;
+    transform: translateY(1%);
+
+}
+/* .container {
+    margin-left: 0;
+    margin: 40px;
+} */
+
+.title {
+    color: var(--Dark-Primary, #2A254B);
+    /* Headings / H3 */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+.font{
+    color: var(--Dark-Primary, #000000);
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 19px;
+    font-style:italic;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+/* Add this to your CSS file */
+
+/* Global styles */
+.row {
+    margin: 0;
+  }
+  
+  .col-md-4 {
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 10px 0;
+  }
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    .col-md-4 {
+      width: 100%;
+    }
+    .navbar-nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .nav-item {
+      margin: 0 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Styles for tablets */
+    .col-md-4 {
+      width: 50%;
+    }
+    .navbar-nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .nav-item {
+      margin: 0 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    /* Styles for desktops */
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .navbar-nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .nav-item {
+      margin: 0 10px;
+    }
+  }

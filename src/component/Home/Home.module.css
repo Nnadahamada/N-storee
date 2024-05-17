@@ -1,0 +1,198 @@
+/* Add this to your CSS file
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Home {
+  height: 584px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.HHome {
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Button {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 20px;
+  align-items: flex-start;
+  border-radius: 10px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.934);
+}
+
+.text {
+  color: var(--White, #FFF);
+  padding-top: 100px;
+  margin: 50px;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 27px }*/
+/* 
+.secsec {
+  max-width: 100% !important;
+  margin-left: auto;
+} */ 
+
+/* Media queries for responsive design */
+/* @media only screen and (max-width: 768px) { */
+  /* Styles for mobile devices */
+  /* .Home {
+    height: auto;
+    padding: 10px;
+  }
+  .HHome {
+    font-size: 18px;
+  }
+  .Button {
+    padding: 5px 10px;
+  }
+  .text {
+    padding-top: 50px;
+    margin: 20px;
+    font-size: 16px;
+  }
+  .secsec {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* Styles for tablets */
+  /* .Home {
+    height: auto;
+    padding: 15px;
+  }
+  .HHome {
+    font-size: 20px;
+  }
+  .Button {
+    padding: 10px 20px;
+  }
+  .text {
+    padding-top: 75px;
+    margin: 30px;
+    font-size: 18px;
+  }
+  .secsec {
+    width: 90%;
+    margin-left: 40px;
+    align-items: center;
+  }
+} */
+
+/* @media only screen and (min-width: 993px) { */
+  /* Styles for desktops */
+  /* .Home {
+    height: 584px;
+    padding: 20px;
+  }
+  .HHome {
+    font-size: 24px;
+  }
+  .Button {
+    padding: 15px 30px;
+  }
+  .text {
+    padding-top: 100px;
+    margin: 50px;
+    font-size: 20px;
+  }
+  .secsec {
+    width: 90%;
+    margin-left: 80px;
+  }
+} */ 
+/* card */
+/* 
+.CardGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.Card {
+  flex-basis: calc(33.33% - 20px);
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 10px 20px;
+}
+
+.Card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Card.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.Card.card-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Card.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.Card.card-footer {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .Card {
+     flex-basis: calc(50% - 20px);
+   }
+ }
+ 
+ @media (max-width: 500px) {
+  .Card {
+     flex-basis: 100%;
+   }
+  .card-body {
+     margin: 0 10px;
+   }
+ } */
+
+
+.Font {
+font-family: 'Courier New', Courier, monospace;
+font-weight: 400;
+font-style:italic;
+ }

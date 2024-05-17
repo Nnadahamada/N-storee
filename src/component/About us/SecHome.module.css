@@ -1,0 +1,26 @@
+.button {
+
+    display: flex;
+    margin-top: 150px;
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 10px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.934);
+}
+
+.code {
+    background-image: url("../../Assets/cover.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 50px;
+    padding-top:  50px; ;
+  }
+
+.offer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
